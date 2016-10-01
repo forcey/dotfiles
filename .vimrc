@@ -3,6 +3,8 @@ set number
 set nocompatible
 filetype plugin indent on
 syntax on
+set tabstop=4 softtabstop=2 shiftwidth=2 expandtab
+set autoindent smartindent cindent
 
 " Plugins, with vim-plug
 " https://github.com/junegunn/vim-plug
