@@ -123,8 +123,3 @@ if [ -f ~/.bash_local ]; then
   . ~/.bash_local
 fi
 
-# Path for QEMU (CSEP 551)
-if [ -d /cse/courses/cse451/16au/bin ]; then
-  export PATH=/cse/courses/cse451/16au/bin:$PATH
-fi
-
