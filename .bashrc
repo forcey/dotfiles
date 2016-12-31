@@ -117,3 +117,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Path for QEMU (CSEP 551)
+if [ -d /cse/courses/cse451/16au/bin ]; then
+  export PATH=/cse/courses/cse451/16au/bin:$PATH
+fi
+
